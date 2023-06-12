@@ -12,7 +12,7 @@
     <body>
 
         <!-- Nav Bar LinkedIn Style --> 
-        <div id="navbar" class="bg-white px-2 py-1 border-b-2">
+        <section id="navbar" class="bg-white px-2 py-1 border-b-2">
             <!-- Grid inside the nav-->
             <div class="mx-auto max-w-screen-lg grid grid-flow-col">
                 <div class="flex md:gap-2">
@@ -128,7 +128,55 @@
             </div>
 
 
-        </div>    
+        </section>    
+
+        <!-- This div is here because I want to have the nice
+        peach background on the bottom half of the page :) -->
+        <div style="background-color: #f8f4ec;">
+            <!-- Div Holding everything else -->
+            <section class="mx-auto max-w-screen-lg pt-14" style="width: 636px;"> <!-- Remove the width style when youre done 6/11/23-->
+                <!-- Div holding the background photo, profile picture, and bio/whatnot-->
+                <div id="bio" class="relative border-2 rounded-lg">
+                    <!-- background -->
+                    <div class="" style="height: 159px;">
+                        <img src="./img/nature.jpg" alt="Background Picture" width="639px" class="h-full rounded-t-lg z-1 ">
+                    </div>
+
+                    <!-- Profile Picture -->
+                    <div class="absolute top-[30px] left-[30px] ">
+                        <img src="https://thispersondoesnotexist.com/" alt="Profile Picture" width="160px" height="160px" class=" border-white border-2 rounded-full ">
+                    </div>
+                        <!--Biographical stuffs-->
+                    <div class="bg-white pb-2 px-2 pt-9 grid grid-cols-5 grid-flow-row z-1" style="min-height:159px" class="rounded-b-lg">
+
+                        <!-- Text Bio -->
+                        <div class="col-span-3">
+                            <h1 class="text-2xl font-semibold">First, Last</h1>
+                            <h4>Position @ Company</h4>
+                            <span class="text-gray-400 text-sm">City, State, United States </span> <span>&#x2022;</span> <span class="text-sm font-semibold text-blue-700">Contact Info</span> 
+                            <br>
+                            <span class="text-gray-400 text-sm font-semibold"> 79 connections</span>
+                            <br>
+                            <button class="rounded-full bg-blue-500 text-white px-4 py-1 font-semibold text-sm mx-1">Connect</button> <button class="rounded-full bg-white px-4 py-1 font-semibold text-sm text-blue-500 border-2 border-blue-500 mr-1">Message</button> <button class="rounded-full bg-white px-4 py-1 font-semibold text-sm text-gray-400 border-2 border-gray-400">More</button>
+                        </div>
+                        <!-- College and University-->
+                        <div class="col-span-2">
+                                <!-- Company -->
+                                <div class="flex mb-2">
+                                    <img src="https://media.licdn.com/dms/image/D4E0BAQGnx8Wcpyrh1w/company-logo_100_100/0/1685625301575?e=1694649600&v=beta&t=qnTtKGyplt_Fh2Gq-fzVZbWKZ-HRB4bE_u3sdOCC3BY" alt="" width="32px" height="32px" class="inline self-center mr-2"><span class="font-semibold text-sm my-auto">Memorial Sloan Kettering Cancer Center </span>
+                                </div>
+                                <!-- University -->
+                                <div class="flex">
+                                    <img src="https://media.licdn.com/dms/image/C560BAQG4ZBcPGQK47Q/company-logo_100_100/0/1519856404339?e=1694649600&v=beta&t=azt2juivIlDQb2kmrbacTs999CSP4lBNkh2TLBwZ2mg" alt="" width="32px" height="32px" class="inline self-center mr-2"><span class="font-semibold text-sm my-auto">Hunter College</span>
+                                </div>
+                        </div>
+                    </div>                        
+
+                </div>
+    
+            </section>
+        </div>
+
 
     </body>
 
